@@ -9,4 +9,6 @@ if (age < 18) {
 } else if (age > 65) {
     const ticketPrice = numbKm * 0.21 * 0.6
     console.log("Ticket Price Over 65:", ticketPrice.toFixed(2))
+} else {
+    console.log("Regular Ticket Price", ticketPrice)
 }
